@@ -1,18 +1,39 @@
-# Salesforce DX Project: Next Steps
+![image](https://user-images.githubusercontent.com/66304591/97797546-0c05e980-1c44-11eb-832b-c22c2941e38d.png)
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+![image](https://user-images.githubusercontent.com/66304591/97797549-12946100-1c44-11eb-8e1e-e5c746a59194.png)
 
-## How Do You Plan to Deploy Your Changes?
+![image](https://user-images.githubusercontent.com/66304591/97797552-16c07e80-1c44-11eb-8257-3bfcf265f667.png)
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+![image](https://user-images.githubusercontent.com/66304591/97797556-1aec9c00-1c44-11eb-9d26-1afefff7249d.png)
 
-## Configure Your Salesforce DX Project
+![image](https://user-images.githubusercontent.com/66304591/97797559-1fb15000-1c44-11eb-8c41-6a90c11673c5.png)
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+![image](https://user-images.githubusercontent.com/66304591/97797560-24760400-1c44-11eb-89c5-4e2f3232fa3e.png)
 
-## Read All About It
+![image](https://user-images.githubusercontent.com/66304591/97797565-293ab800-1c44-11eb-9abb-ea4584e8473a.png)
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+![image](https://user-images.githubusercontent.com/66304591/97797568-3061c600-1c44-11eb-872c-2d64c29ac6d0.png)
+
+![image](https://user-images.githubusercontent.com/66304591/97797572-348de380-1c44-11eb-8155-ca7ee107432a.png)
+
+![image](https://user-images.githubusercontent.com/66304591/97797578-38ba0100-1c44-11eb-9c00-98f9ab4aeca2.png)
+
+![image](https://user-images.githubusercontent.com/66304591/97797580-3ce61e80-1c44-11eb-9673-a843c9ffa743.png)
+
+![image](https://user-images.githubusercontent.com/66304591/97797582-42436900-1c44-11eb-8773-2610ad3d559b.png)
+
+![image](https://user-images.githubusercontent.com/66304591/97797585-47081d00-1c44-11eb-83ea-53ace96fb60b.png)
+
+![image](https://user-images.githubusercontent.com/66304591/97797588-4b343a80-1c44-11eb-9775-b765da4e5826.png)
+
+![image](https://user-images.githubusercontent.com/66304591/97797589-4e2f2b00-1c44-11eb-80ed-892f9a163650.png)
+
+![image](https://user-images.githubusercontent.com/66304591/97797593-51c2b200-1c44-11eb-8c4b-4e26aaf2a39d.png)
+
+![image](https://user-images.githubusercontent.com/66304591/97797596-55563900-1c44-11eb-98b0-594a54af44d8.png)
+
+![image](https://user-images.githubusercontent.com/66304591/97797602-59825680-1c44-11eb-9622-decbcff13eca.png)
+
+![image](https://user-images.githubusercontent.com/66304591/97797606-5e470a80-1c44-11eb-8e05-4581011c232b.png)
+
+![image](https://user-images.githubusercontent.com/66304591/97797609-6141fb00-1c44-11eb-9a2f-8b6f1741dbd3.png)
