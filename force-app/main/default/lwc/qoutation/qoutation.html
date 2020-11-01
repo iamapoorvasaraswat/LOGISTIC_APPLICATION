@@ -1,0 +1,99 @@
+<template>
+    <lightning-card>
+      <div class="slds-align_absolute-center slds-m-around--xx-large">
+        <h3 class="slds-text-heading_large">Quote management</h3>
+      </div>
+      <lightning-layout
+        pull-to-boundary="large"
+        horizontal-align="strech"
+        class="slds-m-around_x-large"
+      >
+        <lightning-layout-item class="slds-m-around_medium">
+          <div class="slds-card__body_inner">
+            <lightning-combobox
+              name="From"
+              label="From"
+              value={value1}
+              placeholder="Select From"
+              options={fromOptions}
+              onchange={handleFromChange}
+            >
+            </lightning-combobox>
+          </div>
+        </lightning-layout-item>
+        <lightning-layout-item class="slds-m-around_medium">
+          <div class="slds-card__body_inner">
+            <lightning-combobox
+              name="To"
+              label="To"
+              value={value2}
+              placeholder="Select To"
+              options={toOptions}
+              onchange={handleToChange}
+            >
+            </lightning-combobox>
+          </div>
+        </lightning-layout-item>
+      </lightning-layout>
+      <div class="slds-align_absolute-center">
+        <lightning-layout vertical-align="center" class="slds-m-around_small">
+          <lightning-layout-item class="slds-m-around_small">
+            <div class="form-group">
+              <h1>PARCEL : {rateParcel}</h1>
+            </div>
+          </lightning-layout-item>
+          <lightning-layout-item class="slds-m-around_small">
+            <div class="form-group">
+              <h1>DOCUMENT : {rateDocument}</h1>
+            </div>
+          </lightning-layout-item>
+        </lightning-layout>
+      </div>
+  
+      <lightning-layout
+        pull-to-boundary="large"
+        vertical-align="strech"
+        class="slds-align_absolute-center"
+      >
+        <lightning-layout-item class="slds-m-around_x-large">
+          <div class="form-group">
+            <lightning-input
+              label="Weight in KiloGrams"
+              value={Kilogram}
+              step="0.1"
+              type="number"
+              autocomplete="off"
+              onchange={handleKilogramChange}
+            ></lightning-input>
+          </div>
+        </lightning-layout-item>
+        <lightning-layout-item class="slds-m-around_x-large">
+          <div class="form-group">
+            <lightning-input
+              label="Total"
+              value={Total}
+              step="0.1"
+              type="number"
+              autocomplete="off"
+              onchange={handleTotal}
+            ></lightning-input>
+          </div>
+        </lightning-layout-item>
+      </lightning-layout>
+      <div class="slds-align_absolute-center slds-m-around_small">
+        <h2>Parcels are calculated in kilograms</h2>
+      </div>
+  
+      <p slot="footer">
+        <lightning-layout class="slds-m-around_large slds-align_absolute-center">
+          <lightning-layout-item>
+            <lightning-button
+              label="Calculate"
+              onclick={calculate}
+              variant="brand"
+            ></lightning-button>
+          </lightning-layout-item>
+        </lightning-layout>
+      </p>
+    </lightning-card>
+  </template>
